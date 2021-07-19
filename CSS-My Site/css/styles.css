@@ -1,22 +1,38 @@
-body{
-  margin:0;
+body {
+  margin: 0;
+  text-align: center;
 }
-.top-container{
+
+.top-container {
   background-color: #CAF7E3;
-  border:10px black solid;
-  padding: 20px;
-  width:200px;
-  height: 200px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 100px;
 }
-.red{
+
+.red {
   background-color: red;
-  width:200px;
+  width: 200px;
   height: 200px;
-  border:20px black solid;
+
 }
-.blue{
+
+.blue {
   background-color: blue;
-  width:200px;
+  width: 200px;
   height: 200px;
-  border:10px black solid;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
 }
