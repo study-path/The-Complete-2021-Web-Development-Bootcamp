@@ -1,0 +1,18 @@
+
+@import './variables';
+
+@import './header';
+
+
+
+.contact {
+ // @include flexCenter(row, pink);
+
+  // background: $primaryBtn;
+  // &:hover{
+  //   background: cornflowerblue;
+  // }
+
+  @extend header;
+  background: chartreuse;
+}

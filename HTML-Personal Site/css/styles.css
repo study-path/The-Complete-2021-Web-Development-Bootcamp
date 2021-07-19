@@ -1,0 +1,40 @@
+/*TAG selectors */
+
+body {
+  background-color: #c4e6e6;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 10%;
+  border-color: grey;
+
+}
+
+h1{
+  color: rgb(53, 134, 107);
+}
+h2{
+  color:aquamarine
+}
+
+img {
+  background-color: rgb(100, 24, 241);
+}
+img:hover{
+  background-color: rgb(192, 23, 116);
+}
+
+/*CLASS selectors */
+
+.pp{
+  color:brown;
+}
+
+
+/*ID selectors */
+.bacon {
+  background-color: rgb(177, 100, 177);
+
+}
