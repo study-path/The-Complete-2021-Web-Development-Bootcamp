@@ -1,0 +1,50 @@
+body {
+  margin: auto;
+  text-align: center;
+}
+
+div {
+  margin: 50px 0;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+footer {
+  margin-top: 10%;
+}
+
+.drum {
+  width: 250px;
+  /* height: 250px; */
+}
+.band {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.d,
+.j {
+  background-image: url("images/1.jpg");
+}
+.n {
+  background-image: url("images/n.png");
+}
+.y,
+.w {
+  background-image: url("images/2.jpg");
+}
+.r {
+  background-image: url("images/1.jpg");
+}
+
+button {
+  text-align: center;
+  font-size: 140px;
+}
+.pressed {
+  box-shadow: 10px 5px 2px 0.5px #da4141;
+}

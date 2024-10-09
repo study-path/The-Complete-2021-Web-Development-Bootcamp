@@ -1,0 +1,46 @@
+.big-title {
+  font-size: 10rem;
+  color: rgb(25, 0, 255);
+  font-family: cursive;
+}
+
+.margin-50 {
+  margin: 50px;
+}
+.game {
+  background-color: rgb(84, 84, 233);
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 10px;
+}
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.green {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+}
+.blue {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+.yellow {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+}
+.pressed {
+  background-color: grey;
+  box-shadow: aquamarine;
+}
