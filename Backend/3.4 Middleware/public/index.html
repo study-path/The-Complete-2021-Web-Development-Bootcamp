@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Band Name Generator</title>
+  </head>
+
+  <body>
+    <h1>Band Name Generator</h1>
+    <form action="/submit" method="POST">
+      <label for="street"
+        >Street Name:<input type="text" name="street" required
+      /></label>
+
+      <label for="pet">Pet Name:</label>
+      <input type="text" name="pet" required />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <div>
+      <h1>JavaScript Validation</h1>
+      <div>
+        Please input a number between 1 and 10
+        <input id="numberInput" autofocus />
+        <button class="button" onclick="validateInputForm()">Submit</button>
+        <p id="textValid"></p>
+      </div>
+    </div>
+  </body>
+  <script>
+    function validateInputForm() {
+      let text;
+      let n = document.getElementById("numberInput").value;
+      if (n >= 1 && n <= 10) {
+        text = "Input OK";
+      } else {
+        text = "Input not valid";
+      }
+      document.getElementById("textValid").innerHTML = text;
+    }
+  </script>
+</html>
